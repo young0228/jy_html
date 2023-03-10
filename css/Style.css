@@ -1,0 +1,46 @@
+﻿body
+{
+	background: rgb(16,102,101);
+	background: linear-gradient(90deg, rgba(16,102,101,0.7120098039215687) 9%, rgba(17,144,177,0.6839985994397759) 48%, rgba(0,112,255,0.695203081232493) 91%);
+}
+
+h1 {
+	font-family: 'Gowun Dodum', sans-serif;
+	font-family: 'Nanum Gothic Coding', monospace;
+	text-align:center;
+	color: white;
+	font-weight: bold;
+}
+
+
+h2 {
+	font-family: 'Gowun Dodum', sans-serif;
+	text-align:center;
+	color: white;
+	background-color: rgb(34,193,195);
+	background-color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.firstbox {
+	border-radius: 25px;
+	background: rgb(255,255,255);
+	padding: 20px;
+	width: 800px;
+	height: 1000px;
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.bottom {
+	position:absolute;
+	bottom:0;
+	width: 1600px;
+	height: 500px;
+	z-index: -1;
+}

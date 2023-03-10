@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/1_fquestion.css">
+    <title>Test</title>
+
+    <script language="JavaScript">
+    function carfunction(){
+        if(document.getElementById('transportation_car').checked){
+        location.href = '1-1-2_car.html';
+    }
+    else 
+    {
+        location.href = '1-2_time.html';
+    }
+    }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Environ Test</h1>
+        <h2> [8:00 AM]</h2>
+    </header>
+
+    <div class="firstbox">
+        <div class="question">
+            상쾌한 하루의 시작!<br>
+            이제 곧 출발해야 하는데, 내가 주로 이용하는 대중교통은?
+        </div>
+        <br>
+        <hr style="width: 80%; margin-left: 5%;"></hr>
+        <div class="select">1개 선택</div>
+        <br>
+        <form>
+            <div class="answer">
+                <label><input type="radio" name="transportation" id="transportation_bus" value="bus"> 대중교통 (버스나 지하철)</label><br>
+                <label><input type="radio" name="transportation" id="transportation_car" value="car"> 자차</label><br>
+                <label><input type="radio" name="transportation" id="transportation_share" value="share"> 카풀</label><br>
+                <label><input type="radio" name="transportation" id="transportation_bycicle" value="bycicle"> 자전거 혹은 도보 이용</label><br>
+            </div>
+            <input class = "w-btn w-btn-indigo" type='submit' value="Next" style="cursor: pointer;" onclick="carfunction()">
+        </form> 
+    </div>
+</body>
+</html>
