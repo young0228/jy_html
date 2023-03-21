@@ -29,14 +29,14 @@ header {
 	width: 90%;
 	height: 70%;
 	margin: 0 auto;
-    top: 2%;
+    top: 5%;
 }
 
 .question {
     font-family: 'Gowun Batang', serif;
     font-size: large;
     font-weight: bold;
-    margin-top: 7%;
+    margin-top: 5%;
     margin-left: 5%;
 }
 
