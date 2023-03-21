@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/1_fquestion.css">
+
+    <title>Test</title>
+</head>
+
+<body>
+    <header>
+        <h1>Environ Test</h1>
+        <h2> [9:00 PM]</h2>
+    </header>
+<form name="f">
+    <div class="firstbox">
+        <div class="question">
+            이제 내가 좋아하는 콘텐츠 보고 자야지!<br>
+            내가 하루에 유튜브 or 넷플릭스를 시청하는 시간은? <br>
+        </div>
+        <br>
+        <hr style="width: 80%; margin-left: 5%;"></hr>
+        <div class="select">1개 선택</div>
+        <br>
+
+        <div class="answer">
+            <label><input type="radio" name="ott" id="ott_no" value="no">시청하지 않는다</label><br>
+            <label><input type="radio" name="ott" id="ott_under30min" value="under30min">30분 미만</label><br>
+            <label><input type="radio" name="ott" id="ott_30minto1hr" value="30minto1hr">30분에서 1시간 사이</label><br>
+            <label><input type="radio" name="ott" id="ott_1hrto2hr" value="1hrto2hr">1시간에서 2시간 사이</label><br>
+            <label><input type="radio" name="ott" id="ott_over2hr" value="over2hr">2시간 이상</label><br>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    <input id = "ottbtn" class = "w-btn w-btn-indigo" type= "button" value="Next" onClick="location.href='final.html'" style="cursor: pointer;">
+</form>
+</body>
+</html>

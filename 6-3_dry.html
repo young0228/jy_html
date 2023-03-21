@@ -1,41 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Select</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/1_fquestion.css">
+
+    <title>Test</title>
 </head>
+
 <body>
     <header>
         <h1>Environ Test</h1>
-        <h2> [12:00 PM]</h2>
+        <h2> [8:00 PM]</h2>
     </header>
-<form>
+<form name="f">
     <div class="firstbox">
         <div class="question">
-            열심히 일하고 나니까 벌써 점심 시간!<br>
-            점심 시간의 컴퓨터 상태는?
+            세탁 끝! 이제 건조해야지.<br>
+            나의 건조 선택은?
         </div>
         <br>
         <hr style="width: 80%; margin-left: 5%;"></hr>
         <div class="select">1개 선택</div>
         <br>
-            <div class="answer">
-                <label><input type="radio" name="computer" id="computer_normal" value="normal"> 일반 모드</label><br>
-                <label><input type="radio" name="computer" id="computer_sleep" value="sleep"> 절전 모드</label><br>
-                <label><input type="radio" name="computer" id="computer_turnout" value="turnout"> 전원 끔</label><br>
-            </div>
+
+        <div class="answer">
+            <label><input type="radio" name="dry" id="dry_dryer" value="dryer"> 건조기 사용</label><br>
+            <label><input type="radio" name="dry" id="dry_natural" value="natural"> 자연 건조</label><br>
+        </div>
         <br>
         <br>
         <br>
     </div>
-    <input id = "computerbtn" class = "w-btn w-btn-indigo" type= "button" value="Next" onClick="location.href='3_lunch.html'" style="cursor: pointer;">
+    <input id = "drybtn" class = "w-btn w-btn-indigo" type= "button" value="Next" onClick="location.href='7_personal.html'" style="cursor: pointer;">
 </form>
 </body>
 </html>

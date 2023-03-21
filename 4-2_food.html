@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/1_fquestion.css">
+</head>
+<body>
+    <header>
+        <h1>Environ Test</h1>
+        <h2> [6:00 PM]</h2>
+    </header>
+<form>
+    <div class="firstbox">
+        <div class="question">
+            밥은 맛있는 걸로 먹어야지.<br>
+            내가 매주 먹는 음식은?
+        </div>
+        <br>
+        <hr style="width: 80%; margin-left: 5%;"></hr>
+        <div class="select">다중 선택 가능</div> 
+        <br>
+            <div class="answer">
+                <label><input type="checkbox" name="food" id="food_beef" value="beef"> 소고기 </label><br>
+                <label><input type="checkbox" name="food" id="food_lamb" value="lamb"> 양고기 </label><br>
+                <label><input type="checkbox" name="food" id="food_pork" value="pork"> 돼지고기 </label><br>
+                <label><input type="checkbox" name="food" id="food_chicken" value="chicken"> 닭고기 </label><br>
+                <label><input type="checkbox" name="food" id="food_cheese" value="cheese"> 치즈 </label><br>
+                <label><input type="checkbox" name="food" id="food_chocolate" value="chocolate"> 다크 초콜렛 </label><br>
+                <label><input type="checkbox" name="food" id="food_none" value="none"> 없음 </label><br>
+            </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    <input id = "foodbtn" class = "w-btn w-btn-indigo" type= "button" value="Next" onClick="location.href='5_washing.html'" style="cursor: pointer;">
+</form>
+</body>
+</html>
