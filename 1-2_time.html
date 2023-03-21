@@ -16,7 +16,7 @@
         <h1>Environ Test</h1>
         <h2> [8:00 AM]</h2>
     </header>
-
+<form>
     <div class="firstbox">
         <div class="question">
             출발할 생각을 했더니 벌써 힘드네.<br>
@@ -26,15 +26,17 @@
         <hr style="width: 80%; margin-left: 5%;"></hr>
         <div class="select">1개 선택</div> 
         <br>
-        <form>
             <div class="answer">
-                <label><input type="radio" name="time" value="under30min"> 30분 이내</label><br>
-                <label><input type="radio" name="time" value="30minto1hr"> 30분에서 1시간 사이</label><br>
-                <label><input type="radio" name="time" value="1hrto2hr"> 1시간에서 2시간 사이</label><br>
-                <label><input type="radio" name="time" value="over2hr"> 2시간 이상</label><br>
+                <label><input type="radio" name="time" id="time_under30min" value="under30min"> 30분 이내</label><br>
+                <label><input type="radio" name="time" id="time_30minto1hr" value="30minto1hr"> 30분에서 1시간 사이</label><br>
+                <label><input type="radio" name="time" id="time_1hrto2hr" value="1hrto2hr"> 1시간에서 2시간 사이</label><br>
+                <label><input type="radio" name="time" id="time_over2hr" value="over2hr"> 2시간 이상</label><br>
             </div>
-            <input class = "w-btn w-btn-indigo" type='submit' value="Next" style="cursor: pointer;">
-        </form> 
+        <br>
+        <br>
+        <br>
     </div>
+    <input id = "timebtn" class = "w-btn w-btn-indigo" type= "button" value="Next" onClick="location.href='2_computer.html'" style="cursor: pointer;">
+</form>
 </body>
 </html>

@@ -21,8 +21,9 @@
 <form name="f">
     <div class="firstbox">
         <div class="question">
-            상쾌한 하루의 시작!<br>
-            이제 곧 출발해야 하는데,<br>내가 주로 이용하는 대중교통은?
+            점심 시간이 벌써 끝나간다니...<br>
+            믿을 수 없어도 커피는 마셔야지<br>
+            하루에 나는 커피를?
         </div>
         <br>
         <hr style="width: 80%; margin-left: 5%;"></hr>
@@ -30,26 +31,26 @@
         <br>
 
         <div class="answer">
-            <label><input type="radio" name="transportation" id="transportation_bus" value="bus"> 대중교통 (버스나 지하철)</label><br>
-            <label><input type="radio" name="transportation" id="transportation_car" value="car"> 자차</label><br>
-            <label><input type="radio" name="transportation" id="transportation_share" value="share"> 카풀</label><br>
-            <label><input type="radio" name="transportation" id="transportation_bycicle" value="bycicle"> 자전거 혹은 도보 이용</label><br>
+            <label><input type="radio" name="coffee" id="coffee_none" value="none"> 마시지 않는다 </label><br>
+            <label><input type="radio" name="coffee" id="coffee_one" value="one"> 1잔 </label><br>
+            <label><input type="radio" name="coffee" id="coffee_two" value="two"> 2잔 </label><br>
+            <label><input type="radio" name="coffee" id="coffee_overthree" value="overthree"> 3잔 이상</label><br>
         </div>
         <br>
         <br>
         <br>
     </div>
-    <input id = "carfbtn" class = "w-btn w-btn-indigo" type= "button" value="Next" style="cursor: pointer;">
+    <input id = "lunchbtn" class = "w-btn w-btn-indigo" type= "button" value="Next" style="cursor: pointer;">
 </form>
 
 <script language="JavaScript">
-    var mode = document.getElementById('carfbtn');
+    var mode = document.getElementById('lunchbtn');
     mode.addEventListener('click', function(event) {
-        var trans = document.querySelector('input[name="transportation"]:checked').value;
-        if (trans == "car") {
-            window.location.href = '1-1-2_car.html';
+        var trans = document.querySelector('input[name="coffee"]:checked').value;
+        if (trans == "None") {
+            window.location.href = '4_dinner.html';
         } else {
-            window.location.href = '1-2_time.html';
+            window.location.href = '3-2_cup.html';
         }
     });
 </script>
