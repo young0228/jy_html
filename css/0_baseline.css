@@ -3,43 +3,22 @@
 
 body
 {
-	background-image: url('img/sunset.jpg');
 	width: 100%; 
 	height: 100vh;
-	background-repeat: no-repeat;
-    background-size: cover;
-}
-
-h1 {
-	font-family: 'Gothic A1', sans-serif;
-	text-align:center;
-	color: black;
-	font-weight: bold;
-}
-
-h2 {
-	font-family: 'Gowun Dodum', sans-serif;
-	text-align:center;
-	color: black;
-}
-
-.firstbox {
-	position: relative;
-	overflow: hidden;
-	border-radius: 5px;
-	background: rgb(255,255,255);
-	width: 550px;
-	height: 400px;
-	margin: 0 auto;
+    background:  rgb(202, 172, 222);
 }
 
 .schedule{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+	max-width: 100%;
+	height: auto;  
+	margin-top: 5%;
+}
+
+.bears{
+	display: block;
+	margin: auto;
+	margin-top: -20%;
+	margin-bottom: 10%;
 }
 
 .w-btn{
@@ -53,13 +32,12 @@ h2 {
     text-decoration: none;
     font-weight: 600;
 	transition:all 0.9s, color 0.3;
-	top: 30px;
-	left: 45%;
+	left: 40%;
 }
 
 .w-btn-indigo{
     background-color: aliceblue;
-    color: #1e6b7b;
+    color: #b12493;
 }
 
 .w-btn:hover{
